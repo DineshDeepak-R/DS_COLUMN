@@ -1,5 +1,6 @@
 from pkgutil import get_data
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import plot
 import seaborn as sns
 from wordcloud import WordCloud
 from column import detect_column_types  
