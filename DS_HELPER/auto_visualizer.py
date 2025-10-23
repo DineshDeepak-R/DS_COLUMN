@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import plot
 import seaborn as sns
 from wordcloud import WordCloud
-from column import detect_column_types  
+from DS_HELPER.column_detector import detect_column_types  
 
 def visualize(df, threshold=20):
    
